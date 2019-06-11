@@ -1,0 +1,16 @@
+.loading-msg {
+    font: 24px sans-serif;
+}
+
+.edge {
+    fill: black;
+}
+
+.excluded-polyline {
+    stroke: black;
+    stroke-width: 2px;
+}
+
+.excluded-rect {
+    fill: black;
+}
