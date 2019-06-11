@@ -3,7 +3,7 @@
  * Written by Michael Wheeler.
  */
 
-const DEBUG = true;
+const DEBUG = false;
 const CANVAS_WIDTH_INCHES = 32;
 const CANVAS_HEIGHT_INCHES = 24;
 const DENSITY = 2;  // Cells per inch
