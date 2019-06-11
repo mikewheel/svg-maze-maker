@@ -240,7 +240,7 @@ class Graph {
         if (!(key instanceof Coordinate) && !(typeof key === "string"))
             throw Error("Argument is neither a coordinate nor a string!");
         // Check that the requested node exists in the graph
-        if (!this.hasNode(key)) throw Error("Node does not exist in this graph! " + key.toString());
+        if (!this.hasNode(key.toString())) throw Error("Node does not exist in this graph! " + key.toString());
 
         return this.nodes[key];
     }
