@@ -239,8 +239,9 @@ class Graph {
         // Check that argument is in fact a coordinate or a string
         if (!(key instanceof Coordinate) && !(typeof key === "string"))
             throw Error("Argument is neither a coordinate nor a string!");
+        // Check that the requested node exists in the graph
+        if (!this.hasNode(key)) throw Error("Node does not exist in this graph! " + key.toString());
 
-        // FIXME -- throw error if node not found
         return this.nodes[key];
     }
 }
