@@ -1,5 +1,7 @@
 # SVG Maze Maker
 
+![A piece of wood with a maze pattern laser engraved in the shape of the word MIKE.](https://github.com/mikewheel/svg-maze-maker/blob/master/result_laser_cut.jpg?raw=true)
+
 This is a simple MVC web app that creates SVG mazes in the browser.
 The app uses Kruskal's algorithm to generate the mazes; my code 
 mirrors the pseudocode found on Wikipedia's pages for 
